@@ -1,5 +1,8 @@
 countrıes
 
-js
+Javascript 
 
-html
+
+HTML
+
+CSS
