@@ -23,7 +23,7 @@ const getCountries = () => {
   fetch(URL)
     .then((res) => {
       if (!res.ok) {
-        throw new Error("api ye ulasamadik");
+        throw new Error("Bağlantı Hatası");
       }
       return res.json();
     })
