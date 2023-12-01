@@ -53,9 +53,9 @@ const displayCountryCard = (selectedCountry) => {
 
     console.log(Object.values(currencies)[0].name);
     countryCard.innerHTML = `
-    <div class="card m-auto" style="width: 22rem">
+    <div class="card m-auto" style="width: 25rem">
     <img src="${png}" class="card-img-top" alt="${common}" />
-    <div class="card-body p-2">
+    <div class="card-body p-4">
       <h5 class="card-title">${common}</h5>
     </div>
     <ul class="list-group list-group-flush">
